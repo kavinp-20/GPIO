@@ -14,7 +14,7 @@ void ir_init(void)
     *ddr &= ~(1 << IR_BIT);
 
     
-    *port &= ~(1 << IR_BIT);
+    *port &= ~(1 << IR_BIT); /*PULL UP OFF*/
 }
 
 uint8_t ir_read(void)
