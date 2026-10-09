@@ -1,6 +1,6 @@
 #include "seg7.h"
 
-/* DDR registers */
+
 
 volatile uint8_t *ddr[11] =
 {
